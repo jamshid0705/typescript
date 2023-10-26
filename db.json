@@ -1,0 +1,10 @@
+{
+    "name":"Mercedes",
+    "price":{
+        "max":"40.000",
+        "min":"20.000",
+        "variant":"100"
+    },
+    "oil":["dizel","eletr"],
+    "colour":["red","blue","black","white","yellow"]
+}
