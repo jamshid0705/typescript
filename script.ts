@@ -113,18 +113,62 @@
 // console.log(week(weekDays.Chorshanba))
 
 ///////// generic
-interface car{
-    name:string,
-    colour:string
-}
-const merc={
-    name:'merc',
-    colour:'red'
-}
-function logger<T>(a:T):T{
-    return a
-}
-console.log(logger<number>(3))
-console.log(logger<string>('jamshid'))
-console.log(logger<boolean>(true))
-console.log(logger<car>(merc))
+// interface car{
+//     name:string,
+//     colour:string
+// }
+// const merc={
+//     name:'merc',
+//     colour:'red'
+// }
+// function logger<T>(a:T):T{
+//     return a
+// }
+// console.log(logger<number>(3))
+// console.log(logger<string>('jamshid'))
+// console.log(logger<boolean>(true))
+// console.log(logger<car>(merc))
+
+
+// const m=(a:number,b:number):number=>{
+//   return a+b
+// }
+
+// function a(a:number,b:number){
+//     a-b
+// }
+
+// const c=function(a:number,b:number):number{
+//     return a+b
+// }
+
+// const todayWeather={
+//     date:new Date(),
+//     today:"Monday"
+// }
+
+// const weather =(a:{date:Date,today:string}):void=>{
+//    console.log(`${a.date} on ${a.today}`)
+// }
+
+// weather(todayWeather)
+
+// //// objects
+
+// const obj={
+//     name:"jamshid",
+//     age:23,
+//     coords:{
+//         lat:5456,
+//         lang:4563
+//     },
+//     getAge(age:number):void{
+//        console.log(this.age)
+//     }
+// }
+// const {name,age}:{name:string,age:number}=obj
+
+// const {coords:{lat,lang}}:{coords:{lat:number,lang:number}}=obj
+
+///////// array
+const arr=['apple','pear','banana']
