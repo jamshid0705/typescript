@@ -171,4 +171,9 @@
 // const {coords:{lat,lang}}:{coords:{lat:number,lang:number}}=obj
 
 ///////// array
-const arr=['apple','pear','banana']
+const arr:(string | number)[]=['apple','pear','banana']
+const arr1:[string,number]=['jamshid',9]
+
+type typeArr=[number,string,boolean]
+
+const jamshid:typeArr=[23,'xatamov',true]
